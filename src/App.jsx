@@ -23,12 +23,12 @@ function App() {
       <NavbarPage />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/login" element={<LoginPage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/register" element={<RegisterPage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/book/list" element={<ListingPage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/book/view/:bookId" element={<BookDetailPage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/book/orders" element={<OrderPage />} />
-        <Route path="https://gilani-ra-bookify.netlify.app/books/orders/:bookId" element={<ViewOrderDetail />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/book/list" element={<ListingPage />} />
+        <Route path="/book/view/:bookId" element={<BookDetailPage />} />
+        <Route path="/book/orders" element={<OrderPage />} />
+        <Route path="/books/orders/:bookId" element={<ViewOrderDetail />} />
       </Routes>
     </div>
   );
