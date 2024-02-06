@@ -22,7 +22,7 @@ const OrderPage = () => {
     <div>
       {books.map((book) => (
         <BookCard
-          link={`https://gilani-ra-bookify.netlify.app/books/orders/${book.id}`}
+          link={`/books/orders/${book.id}`}
           key={book.id}
           id={book.id}
           {...book.data()}
