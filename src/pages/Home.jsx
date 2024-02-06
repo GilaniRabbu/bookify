@@ -20,7 +20,7 @@ const HomePage = () => {
       <CardGroup>
         {books.map((book) => (
           <BookCard
-            link={`https://gilani-ra-bookify.netlify.app/book/view/${book.id}`}
+            link={`/book/view/${book.id}`}
             key={book.id}
             id={book.id}
             {...book.data()}
